@@ -1,0 +1,62 @@
+body {
+    background-color: #000
+}
+
+h4 {
+    color:#ffffff;
+}
+
+.checked {
+    color:rgb(224, 83, 32);
+}
+
+#container {
+    background-color: #101b23;
+    height: 250px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 5%;
+    padding: 40px 50px 40px;
+    margin: 350px 550px 350px;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    background-color: #253038;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(119, 148, 148);
+ }
+
+ button:active {
+    transform: scale(0.91);
+ }
+#submit {
+    border-radius: 50px;
+    margin: 25px 25px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    height: 5px;
+    width: 320px;
+    justify-items: center;
+    
+}
+
+input[value="SUBMIT"] {
+    background-color: rgb(224, 83, 32);
+    color: white;  
+    transform: scale(0.98);
+} 
